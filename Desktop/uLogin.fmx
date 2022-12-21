@@ -1,0 +1,210 @@
+object frmLogin: TfrmLogin
+  Left = 540
+  Top = 300
+  BorderStyle = None
+  Caption = 'Form1'
+  ClientHeight = 344
+  ClientWidth = 796
+  Fill.Color = xFF324053
+  Fill.Kind = Solid
+  Position = ScreenCenter
+  Transparency = True
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnMouseDown = FormMouseDown
+  Left = 540
+  Top = 300
+  DesignerMasterStyle = 0
+  object lotEsquerdo: TLayout
+    Align = Client
+    Size.Width = 515.000000000000000000
+    Size.Height = 344.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Rectangle2: TRectangle
+      Fill.Kind = None
+      Position.X = 96.000000000000000000
+      Position.Y = 215.000000000000000000
+      Size.Width = 305.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claWhite
+      XRadius = 6.000000000000000000
+      YRadius = 6.000000000000000000
+    end
+    object lblLogin: TLabel
+      Align = Top
+      StyledSettings = [Style]
+      Margins.Top = 15.000000000000000000
+      Position.Y = 15.000000000000000000
+      Size.Width = 515.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'LOGIN'
+      TabOrder = 2
+    end
+    object edtUsuario: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      StyleLookup = 'transparentedit'
+      TabOrder = 0
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.FontColor = claWhite
+      Position.X = 96.000000000000000000
+      Position.Y = 96.000000000000000000
+      Size.Width = 305.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'USU'#193'RIO'
+      StyledSettings = [Style]
+      CharCase = ecUpperCase
+      OnTyping = edtUsuarioTyping
+      OnEnter = edtUsuarioEnter
+    end
+    object Line1: TLine
+      LineType = Top
+      Position.X = 96.000000000000000000
+      Position.Y = 128.000000000000000000
+      Size.Width = 305.000000000000000000
+      Size.Height = 9.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFFA8A3A3
+    end
+    object Line2: TLine
+      LineType = Top
+      Position.X = 96.000000000000000000
+      Position.Y = 184.000000000000000000
+      Size.Width = 305.000000000000000000
+      Size.Height = 9.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFFA8A3A3
+    end
+    object edtSenha: TEdit
+      Tag = 1
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      StyleLookup = 'transparentedit'
+      TabOrder = 1
+      Password = True
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.FontColor = claWhite
+      Position.X = 96.000000000000000000
+      Position.Y = 152.000000000000000000
+      Size.Width = 305.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'SENHA'
+      StyledSettings = [Style]
+      OnEnter = edtSenhaEnter
+    end
+    object imgFechar: TImage
+      MultiResBitmap.Height = 64
+      MultiResBitmap.Width = 64
+      MultiResBitmap = <
+        item
+          Width = 64
+          Height = 64
+          PNG = {
+            89504E470D0A1A0A0000000D4948445200000040000000400806000000AA6971
+            DE000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            01D149444154785EED9B6D6E8330104453B818BD596ED65E0C281B765422B524
+            B6F76310BC3F0602CECCB3A24428DCC03CCFC3388E5FCBF817839E761824F31A
+            FD19EDF8DC470E3C5EDD412ED4D3E9D959C82DAB04D958F75F7304096F960743
+            E905D412AABAE876118C124ACB832A01029384DAF242B5008141424B79A14980
+            9029A1B5BC6032498604B3DCCBF8F6D7E01E91122CCA2BEB6F01AB092324B865
+            3D8204F78CCC12C2B2314A08CFC424212D0B8384F40C9901D2CB838C2034E541
+            6420BAF22022186D79E01990BE3CF0089A59FE43C722E48DBAAE6BBE533C4DD3
+            B78C5673F57DFFA9BBFE58AD9A05352B6F028384B4F22053427A79902181A63C
+            889440571E4448A02D0F3C25D097071E120E531E584AF02CDFE97861C9A93F02
+            1EE501BD04CFF28056424479402721B23CA09190511EA44BC82C0FD224309407
+            2D12AE5B62A558ADFC76D53CE674C13328BD848880B4122283D149C808442321
+            3348BA84F4000B691918CA83F02C4CE5415826C6F2C03D1B7379E096F108E581
+            79D665FBDC7F96B6982CB23CB092703D30A1631599E541AB846A010CE5418B84
+            2A014CE541AD84E20B19CB83EA2EBAFF12E6F2A044825E72F287A7B72C07EFEB
+            6BBFE864CD776DA391CCFF88B8EB290BB7DB0F7E635DD3BE8DA9960000000049
+            454E44AE426082}
+          FileName = 'C:\Projetos\Arqueiro\Desktop\img\fechar.png'
+        end>
+      Anchors = [akTop, akRight]
+      Cursor = crHandPoint
+      Position.X = 486.000000000000000000
+      Position.Y = 6.000000000000000000
+      Size.Width = 20.000000000000000000
+      Size.Height = 20.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = imgFecharClick
+    end
+    object sbtnAcessar: TSpeedButton
+      Cursor = crHandPoint
+      StyledSettings = [Style]
+      Margins.Bottom = 30.000000000000000000
+      Position.X = 97.000000000000000000
+      Position.Y = 217.000000000000000000
+      Size.Width = 302.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'speedbuttonstyle'
+      Text = 'Acessar'
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.FontColor = claWhite
+      OnClick = sbtnAcessarClick
+    end
+    object lblAviso: TLabel
+      Align = Bottom
+      StyledSettings = [Family, Style]
+      Margins.Bottom = 30.000000000000000000
+      Position.Y = 297.000000000000000000
+      Size.Width = 515.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.FontColor = xFFFBFF93
+      TextSettings.HorzAlign = Center
+      Text = 'lblAviso'
+      TabOrder = 7
+    end
+  end
+  object Layout1: TLayout
+    Align = Left
+    Size.Width = 281.000000000000000000
+    Size.Height = 344.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Rectangle1: TRectangle
+      Align = Left
+      Fill.Color = xFF273342
+      Size.Width = 281.000000000000000000
+      Size.Height = 344.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object lblAcessarSistema: TLabel
+        Align = Client
+        StyledSettings = [Style]
+        Size.Width = 281.000000000000000000
+        Size.Height = 344.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Century Gothic'
+        TextSettings.Font.Size = 20.000000000000000000
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'Acessar o Sistema'
+        TabOrder = 0
+      end
+      object Rectangle3: TRectangle
+        Align = Center
+        Fill.Kind = None
+        Size.Width = 201.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claWhite
+      end
+    end
+  end
+end

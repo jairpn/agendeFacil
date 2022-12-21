@@ -1,0 +1,118 @@
+inherited frmCadastrar_LgXhdpiPh: TfrmCadastrar_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited TabControl1: TTabControl
+    Size.Width = 450.000000000000000000
+    Sizes = (
+      450s
+      320s
+      450s
+      320s
+      450s
+      320s
+      450s
+      320s
+      450s
+      320s)
+    inherited TabItemEmail: TTabItem
+      ExplicitSize.cx = 93.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Layout6: TLayout
+        Size.Width = 450.000000000000000000
+      end
+      inherited Layout13: TLayout
+        Size.Width = 450.000000000000000000
+      end
+      inherited Layout19: TLayout
+        Size.Width = 450.000000000000000000
+        inherited Label28: TLabel
+          Position.X = 363.000000000000000000
+        end
+      end
+    end
+    inherited TabItemNome: TTabItem
+      ExplicitSize.cx = 125.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Layout3: TLayout
+        Size.Width = 450.000000000000000000
+      end
+      inherited Layout5: TLayout
+        Size.Width = 450.000000000000000000
+      end
+      inherited Layout12: TLayout
+        Size.Width = 450.000000000000000000
+        inherited Label16: TLabel
+          Position.X = 353.000000000000000000
+        end
+      end
+    end
+    inherited TabItemCpf: TTabItem
+      ExplicitSize.cx = 125.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Layout2: TLayout
+        Size.Width = 450.000000000000000000
+      end
+      inherited Layout4: TLayout
+        Size.Width = 450.000000000000000000
+      end
+      inherited Layout9: TLayout
+        Size.Width = 450.000000000000000000
+        inherited Label15: TLabel
+          Position.X = 353.000000000000000000
+        end
+      end
+    end
+    inherited TabItemSUS: TTabItem
+      ExplicitSize.cx = 75.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Layout16: TLayout
+        Size.Width = 450.000000000000000000
+        inherited Label23: TLabel
+          Position.X = 368.000000000000000000
+        end
+      end
+      inherited Layout17: TLayout
+        Size.Width = 450.000000000000000000
+      end
+      inherited Layout18: TLayout
+        Size.Width = 450.000000000000000000
+      end
+    end
+    inherited TabItemSenha: TTabItem
+      ExplicitSize.cx = 125.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      inherited Layout7: TLayout
+        Size.Width = 450.000000000000000000
+      end
+      inherited Layout8: TLayout
+        Size.Width = 450.000000000000000000
+      end
+      inherited Layout10: TLayout
+        Size.Width = 450.000000000000000000
+      end
+      inherited Layout1: TLayout
+        Size.Width = 450.000000000000000000
+        inherited Layout11: TLayout
+          Margins.Left = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Position.X = 5.000000000000000000
+          Size.Width = 440.000000000000000000
+          inherited Label10: TLabel
+            Position.X = 374.000000000000000000
+          end
+        end
+      end
+    end
+  end
+  inherited Layout14: TLayout
+    Position.Y = 633.000000000000000000
+    Size.Width = 450.000000000000000000
+  end
+  inherited Layout15: TLayout
+    Size.Width = 450.000000000000000000
+    inherited Rectangle6: TRectangle
+      Size.Width = 450.000000000000000000
+    end
+  end
+end

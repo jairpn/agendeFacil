@@ -1,0 +1,366 @@
+object frmLogin: TfrmLogin
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 550
+  ClientWidth = 375
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnActivate = FormActivate
+  DesignerMasterStyle = 3
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 375.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Rectangle1: TRectangle
+      Align = Client
+      Fill.Color = xFFB87FF2
+      Size.Width = 375.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Label1: TLabel
+        Align = Center
+        StyledSettings = [Family, Size, Style]
+        Size.Width = 239.000000000000000000
+        Size.Height = 65.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'Login'
+        TabOrder = 0
+      end
+    end
+  end
+  object TabControl1: TTabControl
+    Align = Top
+    Position.Y = 65.000000000000000000
+    Size.Width = 375.000000000000000000
+    Size.Height = 320.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 1
+    TabOrder = 4
+    TabPosition = PlatformDefault
+    Sizes = (
+      375s
+      271s
+      375s
+      271s
+      375s
+      271s)
+    object TabItemCPF: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 125.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tabItemCpf'
+      ExplicitSize.cx = 187.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout3: TLayout
+        Align = Top
+        Size.Width = 375.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object edtcpf: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Center
+          TabOrder = 0
+          KeyboardType = NumberPad
+          MaxLength = 11
+          TextSettings.Font.Size = 16.000000000000000000
+          Size.Width = 300.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Digite seu CPF'
+          StyledSettings = [Family, Style, FontColor]
+          KillFocusByReturn = True
+        end
+      end
+      object Layout5: TLayout
+        Align = Top
+        Position.Y = 48.000000000000000000
+        Size.Width = 375.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object Rectangle3: TRectangle
+          Align = Center
+          Fill.Color = xFE501A96
+          Size.Width = 238.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          XRadius = 6.000000000000000000
+          YRadius = 6.000000000000000000
+          object Label5: TLabel
+            Align = Client
+            StyledSettings = [Family, Size, Style]
+            HitTest = True
+            Size.Width = 238.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.FontColor = claWhite
+            TextSettings.HorzAlign = Center
+            Text = 'Avan'#231'ar'
+            TabOrder = 0
+            OnClick = Label5Click
+          end
+        end
+      end
+      object Layout11: TLayout
+        Align = Top
+        Position.Y = 105.000000000000000000
+        Size.Width = 375.000000000000000000
+        Size.Height = 39.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        object Label6: TLabel
+          Align = Right
+          StyledSettings = [Family, Style]
+          HitTest = True
+          Position.X = 208.000000000000000000
+          Size.Width = 167.000000000000000000
+          Size.Height = 39.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.FontColor = xFF501A96
+          TextSettings.HorzAlign = Center
+          Text = 'Esqueceu a senha?'
+          TabOrder = 0
+          OnClick = Label2Click
+        end
+      end
+    end
+    object TabItemSenha: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 125.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TABITEMSENHA'
+      ExplicitSize.cx = 188.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout7: TLayout
+        Align = Top
+        Size.Width = 375.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object edtSenha: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Center
+          TabOrder = 0
+          KeyboardType = Alphabet
+          Password = True
+          TextSettings.Font.Size = 16.000000000000000000
+          Size.Width = 300.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Digite sua Senha'
+          StyledSettings = [Family, Style, FontColor]
+          KillFocusByReturn = True
+        end
+      end
+      object Layout4: TLayout
+        Align = Top
+        Position.Y = 48.000000000000000000
+        Size.Width = 375.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object Rectangle2: TRectangle
+          Align = Center
+          Fill.Color = xFE501A96
+          Size.Width = 238.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          XRadius = 6.000000000000000000
+          YRadius = 6.000000000000000000
+          object Label3: TLabel
+            Align = Client
+            StyledSettings = [Family, Size, Style]
+            HitTest = True
+            Size.Width = 238.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.FontColor = claWhite
+            TextSettings.HorzAlign = Center
+            Text = 'Acessar'
+            TabOrder = 0
+            OnClick = Label3Click
+          end
+        end
+      end
+      object Layout2: TLayout
+        Align = Top
+        Position.Y = 105.000000000000000000
+        Size.Width = 375.000000000000000000
+        Size.Height = 39.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        object Label2: TLabel
+          Align = Right
+          StyledSettings = [Family, Style]
+          HitTest = True
+          Position.X = 208.000000000000000000
+          Size.Width = 167.000000000000000000
+          Size.Height = 39.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.FontColor = xFF501A96
+          TextSettings.HorzAlign = Center
+          Text = 'Esqueceu a senha?'
+          TabOrder = 0
+          OnClick = Label2Click
+        end
+      end
+    end
+    object TabItemEmail: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 125.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItemEmail'
+      ExplicitSize.cx = 125.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout6: TLayout
+        Align = Top
+        Size.Width = 375.000000000000000000
+        Size.Height = 48.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object edtRecuperarSenha: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Center
+          TabOrder = 0
+          KeyboardType = EmailAddress
+          TextSettings.Font.Size = 16.000000000000000000
+          Size.Width = 300.000000000000000000
+          Size.Height = 32.000000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Digite seu E-mail'
+          StyledSettings = [Family, Style, FontColor]
+          KillFocusByReturn = True
+        end
+      end
+      object Layout8: TLayout
+        Align = Top
+        Position.Y = 48.000000000000000000
+        Size.Width = 375.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object Rectangle4: TRectangle
+          Align = Center
+          Fill.Color = xFE501A96
+          Size.Width = 238.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          XRadius = 6.000000000000000000
+          YRadius = 6.000000000000000000
+          object lblEnviarEmail: TLabel
+            Align = Client
+            StyledSettings = [Family, Size, Style]
+            HitTest = True
+            Size.Width = 238.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.FontColor = claWhite
+            TextSettings.HorzAlign = Center
+            Text = 'Recuperar senha'
+            TabOrder = 0
+            OnClick = lblEnviarEmailClick
+          end
+        end
+      end
+      object Layout9: TLayout
+        Align = Top
+        Position.Y = 105.000000000000000000
+        Size.Width = 375.000000000000000000
+        Size.Height = 56.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        object lblRecuperarSenha: TLabel
+          Align = Center
+          Size.Width = 317.000000000000000000
+          Size.Height = 23.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+      end
+    end
+  end
+  object Layout10: TLayout
+    Align = Bottom
+    Position.Y = 488.000000000000000000
+    Size.Width = 375.000000000000000000
+    Size.Height = 62.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    object Rectangle5: TRectangle
+      Align = Center
+      Fill.Color = xFE501A96
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 224.000000000000000000
+      Size.Height = 46.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 6.000000000000000000
+      YRadius = 6.000000000000000000
+      object Label4: TLabel
+        Align = Client
+        StyledSettings = [Family, Style]
+        HitTest = True
+        Size.Width = 224.000000000000000000
+        Size.Height = 46.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'In'#237'cio'
+        TabOrder = 0
+        OnClick = Label4Click
+      end
+    end
+  end
+  object ActionList1: TActionList
+    Left = 112
+    Top = 368
+    object ChangeTabActionCPF: TChangeTabAction
+      Category = 'Tab'
+      Tab = TabItemCPF
+    end
+    object ChangeTabActionSenha: TChangeTabAction
+      Category = 'Tab'
+      Tab = TabItemSenha
+    end
+    object ChangeTabActionEmail: TChangeTabAction
+      Category = 'Tab'
+      Tab = TabItemEmail
+    end
+  end
+end

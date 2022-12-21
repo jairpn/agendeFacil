@@ -1,0 +1,189 @@
+object frmConfiguracao: TfrmConfiguracao
+  Left = 0
+  Top = 0
+  BorderStyle = None
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 871
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object layConfiguracao: TLayout
+    Align = Client
+    Size.Width = 871.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object edtNomeEmpresa: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      StyleLookup = 'transparentedit'
+      TabOrder = 5
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.FontColor = claWhite
+      Position.X = 24.000000000000000000
+      Position.Y = 72.000000000000000000
+      Size.Width = 265.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Nome da Empresa'
+      StyledSettings = [Style]
+      CharCase = ecUpperCase
+      object lneNomeEmpresa: TLine
+        LineType = Top
+        Position.X = -2.000000000000000000
+        Position.Y = 40.000000000000000000
+        Size.Width = 305.000000000000000000
+        Size.Height = 9.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claWhite
+      end
+    end
+    object Label1: TLabel
+      StyledSettings = [Family, Style]
+      Position.X = 48.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 385.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.FontColor = claWhite
+      Text = 'Cadastrar Empresa'
+      TabOrder = 6
+    end
+    object edtTipoNegocio: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      StyleLookup = 'transparentedit'
+      TabOrder = 0
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.FontColor = claWhite
+      Position.X = 384.000000000000000000
+      Position.Y = 72.000000000000000000
+      Size.Width = 265.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Tipo de Neg'#243'cio'
+      StyledSettings = [Style]
+      CharCase = ecUpperCase
+      object Line1: TLine
+        LineType = Top
+        Position.X = -2.000000000000000000
+        Position.Y = 40.000000000000000000
+        Size.Width = 305.000000000000000000
+        Size.Height = 9.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claWhite
+      end
+    end
+    object edtHoraFuncionamento: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      StyleLookup = 'transparentedit'
+      TabOrder = 4
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.FontColor = claWhite
+      Position.X = 24.000000000000000000
+      Position.Y = 160.000000000000000000
+      Size.Width = 265.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Hor'#225'rio de Funcionamento'
+      StyledSettings = [Style]
+      CharCase = ecUpperCase
+      object Line2: TLine
+        LineType = Top
+        Position.X = -2.000000000000000000
+        Position.Y = 40.000000000000000000
+        Size.Width = 305.000000000000000000
+        Size.Height = 9.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claWhite
+      end
+    end
+    object edtDataFuncionamento: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      StyleLookup = 'transparentedit'
+      TabOrder = 1
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.FontColor = claWhite
+      Position.X = 384.000000000000000000
+      Position.Y = 160.000000000000000000
+      Size.Width = 265.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Dias de Funcionamento'
+      StyledSettings = [Style]
+      CharCase = ecUpperCase
+      object Line3: TLine
+        LineType = Top
+        Position.X = -2.000000000000000000
+        Position.Y = 40.000000000000000000
+        Size.Width = 305.000000000000000000
+        Size.Height = 9.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claWhite
+      end
+    end
+    object edtEndereco: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      StyleLookup = 'transparentedit'
+      TabOrder = 3
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.FontColor = claWhite
+      Position.X = 24.000000000000000000
+      Position.Y = 248.000000000000000000
+      Size.Width = 265.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Endere'#231'o'
+      StyledSettings = [Style]
+      CharCase = ecUpperCase
+      object Line4: TLine
+        LineType = Top
+        Position.X = -2.000000000000000000
+        Position.Y = 40.000000000000000000
+        Size.Width = 305.000000000000000000
+        Size.Height = 9.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claWhite
+      end
+    end
+    object edtTelefone: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      StyleLookup = 'transparentedit'
+      TabOrder = 2
+      TextSettings.Font.Family = 'Century Gothic'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.FontColor = claWhite
+      Position.X = 384.000000000000000000
+      Position.Y = 248.000000000000000000
+      Size.Width = 265.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Telefone'
+      StyledSettings = [Style]
+      CharCase = ecUpperCase
+      object Line5: TLine
+        LineType = Top
+        Position.X = -2.000000000000000000
+        Position.Y = 40.000000000000000000
+        Size.Width = 305.000000000000000000
+        Size.Height = 9.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claWhite
+      end
+    end
+    object btnSalvar: TSpeedButton
+      Position.X = 288.000000000000000000
+      Position.Y = 328.000000000000000000
+      Size.Width = 193.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Salvar'
+    end
+  end
+end
